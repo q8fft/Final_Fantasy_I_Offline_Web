@@ -592,17 +592,17 @@
                     mapChipSize: 16,
                     maxMsgSpeed: 8,
                     statusStr: {
-                        lv: "レベル",
-                        ep: "けいけんち",
-                        pw: "ちから",
-                        sp: "すばやさ",
-                        it: "ちせい",
-                        st: "たいりょく",
-                        lk: "こううん",
-                        wp: "ウェポン",
-                        dx: "めいちゅうりつ",
-                        am: "アーマー",
-                        ev: "かいひりつ"
+                        lv: "مستوى",
+                        ep: "نقاط الخبرة",
+                        pw: "قوة",
+                        sp: "رشاقة",
+                        it: "ذكاء",
+                        st: "تحمل",
+                        lk: "حظ",
+                        wp: "ضرر",
+                        dx: "ضربة",
+                        am: "امتصاص",
+                        ev: "مرواغة"
                     },
                     maxEp: 271149,
                     maxGil: 99999
@@ -1668,7 +1668,7 @@
                         } else t.$set(t.tmp, "drop100", n)
                     }
                 }
-            }), t._v("必ずアイテムドロップ")])]), t._v(" "), i("h2", [t._v("アイテム")]), t._v(" "), t._l(t.itemTemp, function(e, s) {
+            }), t._v("必ずアイテムドロップ")])]), t._v(" "), i("h2", [t._v("مونة")]), t._v(" "), t._l(t.itemTemp, function(e, s) {
                 return i("div", [i("p", [t._v(t._s(t.itemList[s].name))]), t._v(" "), i("input", {
                     directives: [{
                         name: "model",
@@ -4005,13 +4005,13 @@
                             idx: -1
                         },
                         menu: [{
-                            lbl: "そうび",
+                            lbl: "تجهيز",
                             act: "equip"
                         }, {
-                            lbl: "こうかん",
+                            lbl: "تبديل",
                             act: "swap"
                         }, {
-                            lbl: "すてる",
+                            lbl: "أنزع",
                             act: "delete"
                         }],
                         eqIdx: [{
@@ -6048,7 +6048,7 @@
                 staticClass: "epilog_msg",
                 class: { in : t.start
                 }
-            }, [i("li", [t._v("The world is veiled in darkness")]), t._v(" "), i("li", [t._v("かぜはやみ　うみはあれ　だいちはくさっていく")]), t._v(" "), i("li", [t._v("しかし　ひとびとは1つのよげんをしんじ　それをまっていた")]), t._v(" "), i("li", [t._v("このよ　あんこくにそまりしとき")]), t._v(" "), i("li", [t._v("4にんのひかりのせんし　あらわれん")]), t._v(" "), i("li", [t._v("ながいぼうけんのすえ　4にんのわかものがこのちにたどりついた")]), t._v(" "), i("li", [t._v("そしてそのてには　それぞれクリスタルがにぎられていた")])])])
+            }, [i("li", [t._v("عندما انغمس العالم في ظلام حالك.")]), t._v(" "), i("li", [t._v("و توقفت فيه الرياح، وانحسرت فيه البحار")]), t._v(" "), i("li", [t._v("حتى بدأت الارض بالتعفن...")]), t._v(" "), i("li", [t._v("الناس ينتظرون املهم الوحيد، استنادا إلى النبوءة...")]), t._v(" "), i("li", [t._v("عندما يحيك العالم في ظلام يظهر أربعة فرسان...")]), t._v(" "), i("li", [t._v("بعد رحلة طويلة،")]), t._v(" "), i("li", [t._v("اربعة محاربين شباب يصلون...")])])])
         }, s.staticRenderFns = [], e.hot && function() {
             var i = t("vue-hot-reload-api");
             i.install(t("vue"), !0), i.compatible && (e.hot.accept(), e.hot.data ? i.rerender("data-v-5dcb7267", s) : i.createRecord("data-v-5dcb7267", s))
@@ -6078,15 +6078,15 @@
                             y: 0
                         },
                         strs: [
-                            ["あ", "い", "う", "え", "お", "が", "ぎ", "ぐ", "げ", "ご"],
-                            ["か", "き", "く", "け", "こ", "ざ", "じ", "ず", "ぜ", "ぞ"],
-                            ["さ", "し", "す", "せ", "そ", "だ", "ぢ", "づ", "で", "ど"],
-                            ["た", "ち", "つ", "て", "と", "ば", "び", "ぶ", "べ", "ぼ"],
-                            ["な", "に", "ぬ", "ね", "の", "ぱ", "ぴ", "ぷ", "ぺ", "ぽ"],
-                            ["は", "ひ", "ふ", "へ", "ほ", "ゃ", "ゅ", "ょ", "っ", "。"],
-                            ["ま", "み", "む", "め", "も", "0", "1", "2", "3", "4"],
-                            ["ら", "り", "る", "れ", "ろ", "5", "6", "7", "8", "9"],
-                            ["や", "ゆ", "よ", "わ", "ん", "ー", "!", "?", "…", "　"]
+                            ["ض", "ص", "ث", "ق", "ف", "غ", "ع", "ه", "خ", "ح"],
+                            ["ج", "د", "ش", "س", "ي", "ب", "ل", "ا", "ت", "ن"],
+                            ["م", "ك", "ط", "ذ", "ئ", "ء", "ؤ", "ر", "لا", "ى"],
+							["ة", "و", "ز", "ظ", "إ", "أ", "ـ", "لآ", "آ", "~"],
+                            ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+                            ["K", "L", "M", "N", "O", "P", "Q", "R", "S", "T"],
+                            ["U", "V", "W", "X", "W", "Z", "0", "1", "2", "3"],
+                            ["4", "5", "6", "7", "8", "9", "!", "?", "…", "."],
+                            ["@", "#", "$", "%", "^", "&", "*", "(", ")", "　"]
                         ]
                     }
                 },
@@ -7223,7 +7223,7 @@
                 data: function() {
                     return {
                         id: "arm",
-                        name: "ぼうぐや",
+                        name: "درع",
                         type: "arm",
                         itemList: [e.arm[0], e.arm[1], e.arm[2]]
                     }
@@ -8330,7 +8330,7 @@
                 data: function() {
                     return {
                         type: "arm",
-                        title: "ぼうぐ"
+                        title: "درع"
                     }
                 },
                 methods: {},
@@ -8399,7 +8399,7 @@
                         slcIdx: 0,
                         items: t("../../variables/_items"),
                         msg: "",
-                        emptyMsg: "なにも　もっていません。"
+                        emptyMsg: ".ليس لديك شيء"
                     }
                 },
                 created: function() {},
@@ -8496,7 +8496,7 @@
                 staticClass: "status_item"
             }, [i("div", {
                 staticClass: "status_item_title defWin"
-            }, [t._v("アイテム")]), t._v(" "), i("ul", {
+            }, [t._v("مونة")]), t._v(" "), i("ul", {
                 staticClass: "status_item_list defWin"
             }, t._l(t.gl.itemHv, function(e, s) {
                 return i("li", {
@@ -8699,23 +8699,23 @@
                         curWin: "menu",
                         menu: [{
                             id: "item",
-                            lbl: "アイテム",
+                            lbl: "مونة",
                             doCharaSelect: !1
                         }, {
                             id: "mgc",
-                            lbl: "まほう",
+                            lbl: "سحر",
                             doCharaSelect: !0
                         }, {
                             id: "wep",
-                            lbl: "ぶき",
+                            lbl: "سلاح",
                             doCharaSelect: !1
                         }, {
                             id: "arm",
-                            lbl: "ぼうぐ",
+                            lbl: "درع",
                             doCharaSelect: !1
                         }, {
                             id: "sta",
-                            lbl: "ステータス",
+                            lbl: "حالة",
                             doCharaSelect: !0
                         }]
                     }
@@ -8807,7 +8807,7 @@
                 staticClass: "status_main_gil defWin"
             }, [i("span", {
                 staticClass: "gil"
-            }, [t._v(t._s(t.gl.gil))]), t._v("ギル")]), t._v(" "), i("ul", {
+            }, [t._v(t._s(t.gl.gil))]), t._v("جيل")]), t._v(" "), i("ul", {
                 staticClass: "status_main_menu defWin"
             }, t._l(t.menu, function(e, s) {
                 return i("li", {
@@ -8939,13 +8939,13 @@
                 staticClass: "status_status_lv defWin"
             }, [i("span", {
                 staticClass: "key"
-            }, [t._v("レベル")]), i("span", {
+            }, [t._v("مستوى")]), i("span", {
                 staticClass: "val"
             }, [t._v(t._s(t.curChara.lv + 1))])]), t._v(" "), i("div", {
                 staticClass: "status_status_ep defWin"
             }, [i("table", [i("tr", [i("td", {
                 staticClass: "key"
-            }, [t._v("けいけんち")]), i("td", {
+            }, [t._v("نقاط الخبرة")]), i("td", {
                 staticClass: "val"
             }, [t._v("ep")]), i("td", {
                 staticClass: "val"
@@ -8954,7 +8954,7 @@
                 attrs: {
                     colspan: "2"
                 }
-            }, [t._v("つぎのレベルまであと")]), i("td", {
+            }, [t._v("نقاط المستوى التالي")]), i("td", {
                 staticClass: "val"
             }, [t._v(t._s(t.curChara.next < 0 ? "--" : t.curChara.next - t.curChara.ep))])])])]), t._v(" "), i("ul", {
                 staticClass: "status_status_st status_status_st-l defWin"
@@ -9132,7 +9132,7 @@
                 data: function() {
                     return {
                         type: "wep",
-                        title: "ぶき"
+                        title: "سلاح"
                     }
                 },
                 methods: {},
@@ -9886,7 +9886,7 @@
     58: [function(t, e, i) {
         "use strict";
         e.exports = [{
-            name: "Warrior",
+            name: "محارب",
             hp: 35,
             mp: [],
             pw: 20,
@@ -9900,7 +9900,7 @@
             ev: 53,
             lvup: []
         }, {
-            name: "Thief",
+            name: "لص",
             hp: 30,
             mp: [],
             pw: 5,
@@ -9914,7 +9914,7 @@
             ev: 58,
             lvup: []
         }, {
-            name: "Monk",
+            name: "راهب",
             hp: 33,
             mp: [],
             pw: 5,
@@ -9928,7 +9928,7 @@
             ev: 53,
             lvup: []
         }, {
-            name: "Red Mage",
+            name: "ساحر أحمر",
             hp: 30,
             mp: [2],
             pw: 10,
@@ -9942,7 +9942,7 @@
             ev: 58,
             lvup: []
         }, {
-            name: "White Mage",
+            name: "ساحر أبيض",
             hp: 28,
             mp: [2],
             pw: 5,
@@ -9956,7 +9956,7 @@
             ev: 53,
             lvup: []
         }, {
-            name: "Black Mage",
+            name: "ساحر أسود",
             hp: 25,
             mp: [2],
             pw: 1,
@@ -9970,7 +9970,7 @@
             ev: 58,
             lvup: []
         }, {
-            name: "Deci",
+            name: "ديسي",
             hp: 30,
             mp: [2],
             pw: 10,
