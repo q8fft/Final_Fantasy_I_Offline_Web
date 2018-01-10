@@ -13111,10 +13111,10 @@
             }, [e("a", {
                 staticClass: "howtoBtn",
                 attrs: {
-                    href: "http://bit.ly/2Anp4bb",
+                    href: "https://goo.gl/jN7Fdp",
                     target: "_blank"
                 }
-            }, [this._v("せつめいしょ")])])
+            }, [this._v("Mobile Version")])])
         }], e.hot && function() {
             var i = t("vue-hot-reload-api");
             i.install(t("vue"), !0), i.compatible && (e.hot.accept(), e.hot.data ? i.rerender("data-v-1cf8d2c3", s) : i.createRecord("data-v-1cf8d2c3", s))
