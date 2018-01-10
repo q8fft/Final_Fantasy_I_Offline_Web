@@ -9538,7 +9538,7 @@
         e.exports = {
             item: [{
                 idx: 0,
-                name: "ポーション",
+                name: "شفاء",
                 buy: 60,
                 sell: 30,
                 act: {
@@ -9551,7 +9551,7 @@
                 max: 99
             }, {
                 idx: 1,
-                name: "どくけし",
+                name: "نقي",
                 buy: 75,
                 sell: 32,
                 act: {
@@ -9563,7 +9563,7 @@
                 max: 99
             }, {
                 idx: 2,
-                name: "ねぶくろ",
+                name: "خيمة",
                 buy: 75,
                 sell: 32,
                 act: {
