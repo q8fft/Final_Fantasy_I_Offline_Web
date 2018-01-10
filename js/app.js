@@ -8309,7 +8309,7 @@
                 e = this._self._c || t;
             return e("div", {
                 staticClass: "start_message defWin"
-            }, [this._v("\n    …اهلاً بكم"), e("br"), this._v("\n    بمناسبة مرور 30 عام"), e("br"), this._v(" "), e("br"), this._v("\n    …على سلسلة فاينل فانتسي "), e("br"), this._v(".أهدي لكم هذا التعريب، عذبي") ])
+            }, [this._v("\n    …اهلاً بكم"), e("br"), this._v("\n    بمناسبة مرور 30 عام"), e("br"), this._v(" "), e("br"), this._v("\n    …على سلسلة فاينل فانتسي "), e("br"), this._v(".أهدي لكم هذا التعريب، (تجريبي)ـ") ])
         }], e.hot && function() {
             var i = t("vue-hot-reload-api");
             i.install(t("vue"), !0), i.compatible && (e.hot.accept(), e.hot.data ? i.rerender("data-v-7c58df71", s) : i.createRecord("data-v-7c58df71", s))
