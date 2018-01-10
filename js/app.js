@@ -4932,19 +4932,19 @@
                         lastPhase: "",
                         curQue: {},
                         commands: [{
-                            lbl: "たたかう",
+                            lbl: "هجوم",
                             act: "attack"
                         }, {
-                            lbl: "まほう",
+                            lbl: "سحر",
                             act: "magic"
                         }, {
-                            lbl: "くすり",
+                            lbl: "شراب",
                             act: "item"
                         }, {
-                            lbl: "もちもの",
+                            lbl: "مونة",
                             act: "have"
                         }, {
-                            lbl: "にげる",
+                            lbl: "هرب",
                             act: "escape"
                         }],
                         abWaitFnc: null,
